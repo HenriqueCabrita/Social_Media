@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-*h$c1mtr8=7$-kktsqs%fznbfo(!r#coh&059$^nd*m1*t784_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['socialmedia.henrique-cabrita.com', 'localhost']
 
 
 # Application definition
