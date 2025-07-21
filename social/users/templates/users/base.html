@@ -31,6 +31,7 @@
                             <a class="py-4 px-4 text-gray-500 text-xl font-semibold" href="{% url 'logout' %}">Logout</a>
                         {% elif not request.user.is_authenticated and request.path != '/users/login/' %}
                             <a class="py-4 px-4 text-gray-500 text-xl font-semibold" href="{% url 'login' %}">Login</a>
+                            <a class="py-4 px-4 text-gray-500 text-xl font-semibold" href="{% url 'register' %}">Register</a>
                         {% endif %}
 
                     </div>
