@@ -4,6 +4,8 @@
 {% block body %}
     <div class="flex mt-5 p-10 justify-center">
         <h2 class="text-3xl font-normal mb-2 text-gray-500">My Feed</h2>
+    </br>
+        <a class="py-4 px-2 text-gray-500 text-xl font-semibold" href="{% url 'create' %}">Add a new Post</a>
     </div>
     <div class="grid mx-60 p-10 grid-cols-1">
         {% for post in posts %}
